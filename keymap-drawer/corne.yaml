@@ -82,8 +82,8 @@ layers:
   - {t: ▽, type: trans}
   - LGUI
   - {type: held}
-  - SPACE
-  - RET
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RALT
   raise:
@@ -125,8 +125,8 @@ layers:
   - '~'
   - LGUI
   - {t: ▽, type: trans}
-  - SPACE
-  - {t: RET, type: held}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - RALT
 combos:
