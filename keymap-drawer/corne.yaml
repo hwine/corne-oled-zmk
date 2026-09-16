@@ -1,7 +1,48 @@
 layout: {zmk_keyboard: corne}
 layers:
-  default: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, ESC, LGUI, lower, SPACE, RET,
-    raise, RALT]
+  default:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RIGHT SHIFT
+  - LGUI
+  - lower
+  - {t: SPACE, h: lower}
+  - {t: RET, h: raise}
+  - raise
+  - RALT
   lower:
   - TAB
   - '1'
@@ -85,8 +126,8 @@ layers:
   - LGUI
   - {t: ▽, type: trans}
   - SPACE
-  - RET
-  - {type: held}
+  - {t: RET, type: held}
+  - {t: ▽, type: trans}
   - RALT
 combos:
 - p: [19, 20]
