@@ -92,3 +92,21 @@ combos:
 - p: [19, 20]
   k: ESCAPE
   l: [default]
+- p: [4, 5]
+  k: (
+  l: [default]
+- p: [6, 7]
+  k: )
+  l: [default]
+- p: [16, 17]
+  k: '['
+  l: [default]
+- p: [18, 19]
+  k: ']'
+  l: [default]
+- p: [28, 29]
+  k: '{'
+  l: [default]
+- p: [30, 31]
+  k: '}'
+  l: [default]
