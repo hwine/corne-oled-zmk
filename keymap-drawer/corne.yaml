@@ -38,10 +38,10 @@ layers:
   - /
   - RIGHT SHIFT
   - LGUI
-  - lower
+  - {t: SPACE, h: lower}
   - {t: SPACE, h: lower}
   - {t: RET, h: raise}
-  - raise
+  - {t: RETURN, h: raise}
   - RALT
   lower:
   - TAB
