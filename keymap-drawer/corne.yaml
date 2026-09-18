@@ -56,7 +56,7 @@ layers:
   - '9'
   - '0'
   - BSPC
-  - BT CLR
+  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -67,8 +67,8 @@ layers:
   - UP
   - RIGHT
   - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
-  - '&studio_unlock'
   - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
